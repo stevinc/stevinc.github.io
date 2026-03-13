@@ -1,0 +1,44 @@
+baseURL = "https://stefano-vincenzi.github.io/"
+languageCode = "en-us"
+title = "Tinkerer"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  env = "production"
+  title = "Tinkerer"
+  description = "Thoughts on AI, LLMs, and software engineering"
+  author = "Stefano Vincenzi"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = "Tinkerer"
+    Content = "Welcome to my blog. I write about AI, large language models, and software engineering."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/stefano-vincenzi"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
