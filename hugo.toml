@@ -20,7 +20,7 @@ paginate = 10
 
   [params.homeInfoParams]
     Title = "Tinkerer"
-    Content = "Welcome to my blog. I write about AI, large language models, and software engineering."
+    Content = "I write about random things — when I have some time, and when I'm not running."
 
   [[params.socialIcons]]
     name = "github"
