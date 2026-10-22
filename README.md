@@ -44,3 +44,4 @@ hugo
 | [Hello World](content/posts/hello-world.md) | meta, intro |
 | [SSH keys per host multipli](content/posts/ssh-keys-multiple-hosts.md) | git, ssh, til |
 | [Git: aggiornare un token HTTPS per un singolo repository](content/posts/git-token-per-repository.md) | git, til, sicurezza |
+| [Git: rimuovere un file da tutta la storia (rebase + force push)](content/posts/git-rimuovere-file-dalla-storia.md) | git, til |
